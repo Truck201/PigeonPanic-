@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf4c3f8d2eb33948b626cfe88d6d287, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  level: 1
+  requiredScore: 800
+  spawnDelayMin: 1.9
+  spawnDelayMax: 2.4
+  eggSpawnProbability: 0.158
+  specialPigeonProbability: 0.1
+  zafariSpecialProbability: 0.205
+  maxActivePigeons: 3
+  pigeonsPerSpawn: 1
+  pigeonNormalLifetime: 3
+  pigeonSpecialLifetime: 3
+  comboCountActive: 20
+  comboDuration: 3
+  eventDuration: 8
+  scoreLevel: 1600
+  maxMissedPigeons: 10
+  pigeonNormalPoints: 100
+  pigeonSpecialPoints: 200
+  eggDestroyPoints: 100
+  missObjectivePoints: 300
+  isTutorial: 1
